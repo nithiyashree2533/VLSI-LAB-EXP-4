@@ -134,11 +134,11 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 VERILOG CODE
 
-   <<< TYPE YOUR VERILOG CODE >>>
-
+ 
 OUTPUT WAVEFORM
  <<< PASTE YOUR OUTPUT WAVEFORM >>>
 
 RESULT
+Hence SR, JK, T, D - FLIPFLOP, COUNTER DESIGN are simulated and synthesised using Xilinx ISE.
 
 
