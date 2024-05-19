@@ -77,9 +77,13 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 
 
-SR FLIPFLOP
+SR FLIPFLOP:
+
+
 
 Verilog Code:
+
+
 
 ```
 module srff(s,r,clk,rst,q);
@@ -104,7 +108,7 @@ endmodule
 
 
 
-**LOGIC DIAGRAM**
+**LOGIC DIAGRAM**:
 
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
@@ -119,7 +123,7 @@ output:
 
 
 
-JK FLIPFLOP
+JK FLIPFLOP:
 
 
 
@@ -149,7 +153,7 @@ endmodule
 ```
 
 
-Logic diagram
+Logic diagram:
 
 
 
@@ -166,7 +170,9 @@ output:
 
 
 
-T FLIPFLOP
+T FLIPFLOP:
+
+
 
 verilog code:
 
@@ -188,7 +194,9 @@ end
 endmodule
 ```
 
-logic diagram
+
+
+logic diagram:
 
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
@@ -203,7 +211,8 @@ output:
 
 
 
-D FLIPFLOP
+D FLIPFLOP:
+
 
 verilog code:
 
@@ -222,7 +231,12 @@ q=d;
 end
 endmodule
 ```
+
+
+
 Logic Diagram:
+
+
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
@@ -258,9 +272,7 @@ endmodule
 
 
 
-
-
-COUNTER
+COUNTER:
 
 
 
@@ -280,19 +292,23 @@ Logic Diagram:
 
 
 
-
-
 output:
+
 
 
 ![udc](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/cc4c3051-e1b7-48ec-8a14-030e5dd278eb)
 
 
+
 Mod-10 Counter:
-verilogcode
+
+
+
+verilog code
+
+
+
 ```
-
-
 module mod10(clk,rst,out);
 input clk,rst;
 output reg [3:0]out;
@@ -308,13 +324,11 @@ endmodule
 
 
 
-
 Logic Diagram:
 
 
+
 ![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/2db8ef96-2f77-4665-8898-b93e4f0ed921)
-
-
 
 
 
@@ -327,6 +341,9 @@ output:
 
 
 Ripple Carry Counter:
+
+
+
 Verilog Code:
 
 
@@ -388,9 +405,7 @@ output:
 
 
 
- 
-
-RESULT
+RESULT:
 
 
 
