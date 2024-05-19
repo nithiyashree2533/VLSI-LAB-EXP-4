@@ -1,5 +1,14 @@
-# VLSI-LAB-EXP-4
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+# VLSI-LAB
+
+
+
+EXP-4
+
+Date: 05.4.23/ 12.4.23
+
+
+
+            SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
 
 
@@ -7,7 +16,7 @@ AIM:
 
 
 
- To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
+       To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
 
 
@@ -15,26 +24,15 @@ APPARATUS REQUIRED:
 
 
 
-Xilinx 14.7
-Spartan6 FPGA
+      Vivado 2023.2
 
 
-
-**LOGIC DIAGRAM**
 
 
 
 SR FLIPFLOP
 
-
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
-
-
-
 Verilog Code:
-
-
 
 ```
 module srff(s,r,clk,rst,q);
@@ -59,6 +57,12 @@ endmodule
 
 
 
+**LOGIC DIAGRAM**
+
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
+
+
 output:
 
 
@@ -67,15 +71,8 @@ output:
 
 
 
-logic diagram
-
-
 
 JK FLIPFLOP
-
-
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 
 
 
@@ -105,6 +102,13 @@ endmodule
 ```
 
 
+Logic diagram
+
+
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
+
+
 
 output:
 
@@ -114,17 +118,8 @@ output:
 
 
 
-logic diagram
-
-
 
 T FLIPFLOP
-
-
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
-
-
 
 verilog code:
 
@@ -146,6 +141,11 @@ end
 endmodule
 ```
 
+logic diagram
+
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
+
 
 
 output:
@@ -157,12 +157,6 @@ output:
 
 
 D FLIPFLOP
-
-
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
-
-
 
 verilog code:
 
@@ -181,6 +175,9 @@ q=d;
 end
 endmodule
 ```
+Logic Diagram:
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
 
 
