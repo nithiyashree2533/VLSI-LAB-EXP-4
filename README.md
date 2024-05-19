@@ -25,7 +25,54 @@ APPARATUS REQUIRED:
 
 
       Vivado 2023.2
+PROCEDURE:
 
+
+
+STEP:1  Start  the Xilinx navigator, Select and Name the New project.
+
+
+
+STEP:2  Select the device family, device, package and speed. 
+
+
+
+STEP:3  Select new source in the New Project and select Verilog Module as the Source type. 
+
+
+
+STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
+
+
+
+STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax. 
+
+
+
+STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.   
+
+
+
+STEP:7  Select the Implementation in the Sources Window and select the required file in the Processes Window.
+
+
+
+STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in the  FloorplanArea/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained.
+
+
+
+STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
+
+
+
+STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
+
+
+
+STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
+
+
+ 
 
 
 
@@ -189,26 +236,6 @@ output:
 
 
 
-COUNTER
-
-
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
-
-
-
-Updown Counter:
-
-
-
-Logic Diagram:
-
-
-
-![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/c09d0ebd-f66e-49b7-adf5-e9d3008cc541)
-
-
-
 
 Verilog Code:
 
@@ -230,6 +257,31 @@ endmodule
 ```
 
 
+
+
+
+COUNTER
+
+
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
+
+
+
+Updown Counter:
+
+
+
+Logic Diagram:
+
+
+
+![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/c09d0ebd-f66e-49b7-adf5-e9d3008cc541)
+
+
+
+
+
 output:
 
 
@@ -237,15 +289,6 @@ output:
 
 
 Mod-10 Counter:
-
-
-
-Logic Diagram:
-
-
-![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/2db8ef96-2f77-4665-8898-b93e4f0ed921)
-
-
 verilogcode
 ```
 
@@ -265,6 +308,16 @@ endmodule
 
 
 
+
+Logic Diagram:
+
+
+![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/2db8ef96-2f77-4665-8898-b93e4f0ed921)
+
+
+
+
+
 output:
 
 
@@ -274,22 +327,6 @@ output:
 
 
 Ripple Carry Counter:
-
-
-
-Logic Diagram:
-
-
-
-![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/beb65972-078d-4146-b890-5b4d23d048a8)
-
-
-
-![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/ec5599ef-ef41-4d72-92c6-805d51731246)
-
-
-
-
 Verilog Code:
 
 
@@ -327,6 +364,21 @@ endmodule
 ```
 
 
+
+Logic Diagram:
+
+
+
+![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/beb65972-078d-4146-b890-5b4d23d048a8)
+
+
+
+![image](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/ec5599ef-ef41-4d72-92c6-805d51731246)
+
+
+
+
+
 output:
 
 
@@ -334,52 +386,6 @@ output:
 ![Rca](https://github.com/nithiyashree2533/VLSI-LAB-EXP-4/assets/161813688/fb66fd29-dca1-4694-b195-fd0130ac790a)
 
 
-
-PROCEDURE:
-
-
-
-STEP:1  Start  the Xilinx navigator, Select and Name the New project.
-
-
-
-STEP:2  Select the device family, device, package and speed. 
-
-
-
-STEP:3  Select new source in the New Project and select Verilog Module as the Source type. 
-
-
-
-STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
-
-
-
-STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax. 
-
-
-
-STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.   
-
-
-
-STEP:7  Select the Implementation in the Sources Window and select the required file in the Processes Window.
-
-
-
-STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in the  FloorplanArea/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained.
-
-
-
-STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
-
-
-
-STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
-
-
-
-STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 
  
